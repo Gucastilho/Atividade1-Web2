@@ -1,0 +1,41 @@
+
+#Header{
+    background-color: #000000;
+    margin: 0;
+    display: flex;
+    height: 263px;
+    
+}
+
+div{
+    align-items: center;
+}
+
+img{
+    padding: 50px;
+}
+
+li{
+    color: #FFF;
+    font-size:30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0px 43px;
+    
+}
+
+nav{
+    display: flex;
+    margin-left: 8rem;
+    
+}
+
+#singIn{
+    margin-right: 0px;
+
+
+}
+
+
+
