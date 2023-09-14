@@ -13,62 +13,82 @@ h1 {
 }
 
 button {
-  color: #fff;
+  color:#fff;
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-
-.organizacao-catalogo {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-center {
-  justify-content: center;
-  display: flex;
-}
-
-.itemCatalgo {
-  width: 179px;
-  height: 350px;
-  flex-shrink: 0;
-  border-radius: 11px;
-  background: #212121;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  margin: 0px 64px;
-}
-
-.div-catalogo-botton {
-  margin-left: 14px;
-}
-
-.div-button-compras {
-  justify-content: center;
-  display: flex;
-  margin-top: 35px;
-}
-
-.button-compras {
   width: 150px;
-  height: 31px;
+  height: 31px; 
   border-radius: 10px;
   background: #099330;
+
 }
 
-.texto-catalogo {
-  font-family: Raleway;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
+#divItensDrinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+
+
 }
 
-.preco-catalogo {
-  font-family: Poppins;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
+.corpoDrinks{
+  width: 179px;
+  height: 300px;
+  border-radius: 11px;
+  background: #212121;
+ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ margin:35px;
 }
+
+.divItemDrinksImagem{
+  width: auto;
+  height: 170px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+.imageDrinks{
+  width: 91px;
+  height: 150px;
+
+}
+
+.pTeste{
+  margin-top: 0px;
+}
+
+.divButton{
+  justify-content: center;
+  display: flex;
+}
+
+
+.textDrinkInfo{
+  margin-left: 10px;
+}
+
+.raleway{
+font-family: Raleway;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+}
+
+.poppins{
+color: #FFF;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
