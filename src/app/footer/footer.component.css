@@ -24,3 +24,12 @@ h2 {
 select{
   margin-top: 25px;
 }
+
+.pedidosManuais{
+  margin-top: 100px;
+  background-color: grey;
+  border-radius: 20px;
+  padding: 1px;
+  
+}
+
