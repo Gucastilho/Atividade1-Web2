@@ -1,4 +1,26 @@
+*{
+  margin-left: 20px;
+}
+
 h1 {
     color: #fff;
     margin: 30px 10px;
   }
+
+p{
+  color: white;
+} 
+
+ul li {
+  color: white;
+}
+
+h2 {
+  
+  color: white;
+  margin-top: 30px;
+}
+
+select{
+  margin-top: 25px;
+}

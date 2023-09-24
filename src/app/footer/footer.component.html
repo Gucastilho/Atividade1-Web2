@@ -9,16 +9,16 @@
 
   <h2>Selecione sua bebida favorita</h2>
 
-    <select (ngModel)="TipoMarcaSelecionados" (change)="updateListaTipos()">
+    <select [(ngModel)]="TipoMarcaSelecionados" (change)="updateListaTipos()">
         <option value="">--Selecione a Tipo da sua Bebida--</option>
-        <option *ngFor=" let bebida of bebidas" >{{bebida.marca}}</option>
+        <option *ngFor=" let bebida of bebidas" [ngValue]="bebida">{{bebida.marca}}</option>
 
     </select>
   
     <h2> Selecione sua a bebida </h2>
-    <select (ngModel)="TipoModeloSelecionado">
+    <select [(ngModel)]="TipoModeloSelecionado">
         <option value="">--Selecione sua bebida--</option>
-        <option *ngFor="let tipo of tipos">{{tipo.nome}} </option>
+        <option *ngFor="let tipo of tipos" [ngValue]="tipo">{{tipo.nome}} </option>
     </select>
 
 
