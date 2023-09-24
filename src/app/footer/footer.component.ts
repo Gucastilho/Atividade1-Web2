@@ -7,9 +7,6 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
-}
-
-export class VendasComponent {
   BebidasEspeciais = [
     { produto: 'Vodka Mango', preco: 'R$189.00', detalhes: 'A Absolut Vodka sabor manga é uma deliciosa e refrescante variação da clássica vodka Absolut.'},
     { produto: 'Vodka Absolute Pear', preco: 'R$199.00', detalhes: 'A Absolut Vodka sabor pera é uma variante encantadora e sofisticada da famosa vodka Absolut' },
@@ -17,7 +14,7 @@ export class VendasComponent {
   ];
 
   // Estrutura de dados para marcas, modelos e preços de celulares
-  Bebidas = [
+  bebidas = [
     {
       marca: 'Gin',
       tipos: [
@@ -52,20 +49,20 @@ export class VendasComponent {
   ];
 
 
-  MarcaSelecionada: any;
-  ModeloSelecionado: any;
-  modelos: any;
+  TipoMarcaSelecionados: any;
+  TipoModeloSelecionado: any;
+  tipos:any;
 
-
-  updateListaModelo() {
-    // Lógica para atualizar a lista de modelos com base na marca selecionada
-    const MarcaSelecionada = this.MarcaSelecionada;
-    if (MarcaSelecionada) {
-      this.modelos = MarcaSelecionada.modelos;
-    } else {
-      this.modelos = [];
+  updateListaTipos(){
+    const TipoMarcaSelecionados = this.TipoMarcaSelecionados;
+    if(TipoMarcaSelecionados) {
+      this.tipos = TipoMarcaSelecionados.tipos;
+    }else{
+      this.tipos = [];
     }
   }
+  
+
 
 
   DesejoUsuario: string = '';
@@ -84,5 +81,7 @@ export class VendasComponent {
   LimparDesejos() {
     this.desejos = []; // Limpa a lista de desejos
   }
+
 }
+
 
