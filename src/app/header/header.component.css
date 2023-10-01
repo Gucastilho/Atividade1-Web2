@@ -15,7 +15,7 @@ img{
     padding: 50px;
 }
 
-li{
+li {
     color: #FFF;
     font-size:30px;
     justify-content: center;
@@ -23,6 +23,16 @@ li{
     display: flex;
     margin: 0px 43px;
     
+}
+
+a{
+    color: #FFF;
+    font-size:30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0px 43px;
+    list-style: none;
 }
 
 nav{
