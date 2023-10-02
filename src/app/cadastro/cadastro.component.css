@@ -70,6 +70,12 @@ form {
   border-radius: 40px;
 }
 
+.divCkeckBox{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 input, select, textarea, button{
     border-radius: 5px;
 }
@@ -118,6 +124,8 @@ button{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     color: black;
     }
+
+
 
 
 
