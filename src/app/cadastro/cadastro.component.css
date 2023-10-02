@@ -77,6 +77,7 @@ input, select, textarea, button{
 .grupo input{
     padding: 0.2em;
     display: block;
+    color: black;
 
 }
 
