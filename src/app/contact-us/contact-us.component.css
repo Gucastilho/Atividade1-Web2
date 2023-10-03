@@ -1,0 +1,25 @@
+body {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background: #373737;
+  background: cover;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.titleContactUS{
+    margin-top: 100px;
+    margin-left: 95px;
+}
+
