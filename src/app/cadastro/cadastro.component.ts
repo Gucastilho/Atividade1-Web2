@@ -8,6 +8,16 @@ import { Component } from '@angular/core';
 export class CadastroComponent {
 
 
+  showPassword() {
+    let pwd = document.getElementById("pwd")! as HTMLInputElement;
+    if (pwd.type === 'password') {
+      pwd.type = 'text';
+    } else if(pwd.type === "text") {
+      pwd.type = 'password';
+    }else {
+      pwd.type = 'password';
+    }
+  }
 
 }
 
