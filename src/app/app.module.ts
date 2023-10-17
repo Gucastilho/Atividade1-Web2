@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { HomeComponent } from './home/home.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ShopCardComponent } from './shop-card/shop-card.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     FooterComponent,
     CadastroComponent,
     HomeComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    ShopCardComponent
   ],
   imports: [
     BrowserModule,
