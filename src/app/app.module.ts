@@ -15,6 +15,8 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { HomeComponent } from './home/home.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ShopCardComponent } from './shop-card/shop-card.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ConectaComponent } from './conecta/conecta.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ShopCardComponent } from './shop-card/shop-card.component';
     CadastroComponent,
     HomeComponent,
     ContactUsComponent,
-    ShopCardComponent
+    ShopCardComponent,
+    ConectaComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -34,6 +38,7 @@ import { ShopCardComponent } from './shop-card/shop-card.component';
     FormsModule,
     BrowserAnimationsModule,
     MatMenuModule,
+    HttpClientModule,
     
   ],
   providers: [],
